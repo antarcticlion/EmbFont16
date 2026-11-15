@@ -1,0 +1,82 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# debug information files
+*.dwo
+
+# Build outputs (ROM, BDF, work files, charts)
+output/
+
+# Tool binaries
+tools/bin/
+
+# Build intermediates
+build/
+mapping/
+
+# Generated label font header
+tools/src/label_font.h
+
+# Unifont BDF extracted from the tracked .bdf.gz archive
+assets/unifont/unifont_jp.bdf
+
+# Editor and OS temporary files
+.DS_Store
+*~
+*.swp
+*.BAK
+*.bak
+
+# PC-98 ROM and ROM-derived font data (not redistributed)
+assets/misc/FONT.ROM
+assets/misc/pc98_font_*.BDF
+assets/misc/pc98_font_*.bdf

@@ -1,0 +1,12 @@
+[submodule "assets/yaft"]
+	path = assets/yaft
+	url = https://github.com/uobikiemukot/yaft
+[submodule "assets/xorg-font-daewoo"]
+	path = assets/xorg-font-daewoo
+	url = https://gitlab.freedesktop.org/xorg/font/daewoo-misc
+[submodule "assets/xorg-font-isas"]
+	path = assets/xorg-font-isas
+	url = https://gitlab.freedesktop.org/xorg/font/isas-misc
+[submodule "tools/stb"]
+	path = tools/stb
+	url = https://github.com/nothings/stb.git
